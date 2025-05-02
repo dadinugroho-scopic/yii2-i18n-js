@@ -7,10 +7,16 @@
     "js"
   ],
   "type": "yii2-extension",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/dadinugroho-scopic/php-helper"
+    }
+  ],
   "require": {
     "php": "^7.2",
     "yiisoft/yii2": "^2.0",
-    "w3lifer/php-helper": "^1.0"
+    "w3lifer/php-helper": "dev-master"
   },
   "autoload": {
     "psr-4": {
@@ -23,5 +29,7 @@
       "email": "w3lifer@gmail.com"
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
